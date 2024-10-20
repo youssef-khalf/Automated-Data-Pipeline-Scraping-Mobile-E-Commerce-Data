@@ -29,4 +29,4 @@ jobs:
       # Step 4: Run the Jupyter notebook
       - name: Execute Jupyter Notebook
         run: |
-          jupyter nbconvert --to notebook --execute [Pipe Line.ipynb] --output [Pipe Line.ipynb]
+          jupyter nbconvert --to notebook --execute Pipe_Line.ipynb --output Pipe_Line.ipynb
